@@ -6,3 +6,6 @@ jdk:
  - openjdk11
 after_success:
   - bash <(curl -s https://codecov.io/bash)
+notifications:
+ email:
+   - one@example.com(replace by your e-mail)
