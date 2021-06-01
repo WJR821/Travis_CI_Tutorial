@@ -6,16 +6,17 @@ jdk:
  - openjdk11
 after_success:
   - bash <(curl -s https://codecov.io/bash)
+  
 deploy:
   provider: releases
   file_glob: true
   skip_cleanup: true
-  api_key: $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
+  api_key: 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
   file:
     - .travis.yml
   on:
     tags: true
     branch: tag
-    repo: WJR821/Travis_CI_Tutorial
+    repo: <WJR821>/<Travis_CI_Tutorial>
 
 
