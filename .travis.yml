@@ -19,8 +19,5 @@ deploy:
     branch: tag
     repo: <WJR821>/<Travis_CI_Tutorial>
 
-notifications:
- email:
-   - 2758972837@qq.com
 
 
