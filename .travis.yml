@@ -8,4 +8,4 @@ after_success:
   - bash <(curl -s https://codecov.io/bash)
 notifications:
  email:
-   - one@example.com(replace by your e-mail)
+   - 2758972837@qq.com(replace by your e-mail)
