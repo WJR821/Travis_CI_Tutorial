@@ -16,6 +16,6 @@ deploy:
   on:
     tags: true
     branch: tag
-    repo: <WJR821>/<Travis_CI_Tutorial>
+    repo: WJR821/Travis_CI_Tutorial
 
 
